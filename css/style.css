@@ -1,0 +1,128 @@
+/*etiqueta{
+	propiedad:valor;
+
+	tutorial Nº 10 12:03minutos;
+}*/
+
+body{
+	font-family: 'Gochi Hand', cursive;
+	font-size: 16px;
+}
+
+header{
+	/*Establecemos un color de fondo*/
+	background-color: #604214;
+	/*Hacemos que el texto se aline hacia la derecha*/
+	text-align: right;
+}
+header figure{
+	/*Que la figura flote hacia la izquierda*/
+	float: left;
+	/*Que tenga un margen- que no este tan pegado a la pagina*/
+	margin-left: 100px;
+}
+
+header figure img{
+
+	/*Le cambiamos el ancho y el alto de la imagen*/
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+}
+header h1{
+	color: #f7f7f7;
+	float: left;
+	font-size: 1.6em;
+	display: block;
+	margin:7px 80px 0px 50px;
+	padding: 0px;
+}
+
+header nav ul{
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+	list-style: none;
+}
+
+header nav ul li{
+	height: 35px;
+	margin-top: 10px;
+	width: 100%;
+	display: inline-block;
+	border: 1px solid green;
+}
+
+header nav ul li a {
+	/*Le saca lo subrayado*/
+	text-decoration: none;
+	font-weight: bold;
+	color: #f7f7f7;
+	padding: 15px 25px;
+}
+
+
+section article p{
+	color: red;
+	/* Cambiamos el grosor de la fuente*/
+	font-weight: bolder;
+    /*Ponemos en cursiva a la fuente*/
+	font-style: italic;
+	/*Hacemos que se subraye*/
+	text-decoration: underline;
+	/*Achicamos la lineas de textos*/
+	line-height: 35px;
+  	/*Es el tamaño de la fuente con respecto al que ya habiamos declarado arriba en body em es al padre y rem al body*/
+	font-size: 0.8rem;
+	/*Esto redondea los bordes*/
+	border-radius: 100px;
+	/* Cambiamos de lugar la fuente--derecha,izquierda,centro*/
+	background-color: black;
+	text-align: center;
+	width: 200px;
+}
+
+
+/* Poner la ruta para que tome solo los li que quiero afectar
+header nav ul li a{
+	color:red;
+}
+
+header nav ul li a.amarillo{
+	color: yellow;
+	background-color: black;
+}
+
+header nav ul li a#verde{
+	color:green;
+	background-color: blue;
+}*/
+
+section article p{
+	width: 170px;
+	height: 170px;
+	background-color: yellow;
+}
+
+@media screen and (min-width: 480px){
+	header nav ul li{
+        width: 22%;
+}
+
+@media screen and (min-width: 767px){
+	header nav ul li{
+		width: 8%;
+	}
+}
+
+@media screen and (min-width: 950px){
+	
+}
+
+
+
+
+
+
+
+
